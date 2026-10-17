@@ -1,0 +1,5 @@
+#leaflet-map { position:absolute; inset:0; z-index:0; }
+.leaflet-control-zoom { margin-top:10px!important; margin-left:12px!important; }
+.leaflet-control-attribution { font-size:9px!important; }
+.map > .mode, .map > .winds, .map > .statbox, .map > .card, .map > .attrib { z-index:500; }
+@media (max-width:760px) { .leaflet-control-attribution { display:none; } }
